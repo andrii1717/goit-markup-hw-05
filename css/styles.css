@@ -568,7 +568,7 @@ h6 {
   color: #ffffff;
 }
 
-.ищеещь-input::placeholder {
+.bottom-input::placeholder {
   color: #ffffff;
 }
 
@@ -813,11 +813,6 @@ h6 {
 }
 
 .modal-checkbox {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-
   width: 16px;
   height: 16px;
 
@@ -826,6 +821,11 @@ h6 {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .modal-check:checked + .modal-check-text span {
