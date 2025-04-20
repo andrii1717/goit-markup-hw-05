@@ -800,7 +800,6 @@ h6 {
   letter-spacing: 0.04em;
   color: #8e8f99;
 
-  display: flex;
   align-items: center;
   gap: 8px;
 }
@@ -822,7 +821,7 @@ h6 {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
